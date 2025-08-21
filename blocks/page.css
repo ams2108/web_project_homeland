@@ -22,7 +22,7 @@ body {
   background: var(--page-bg);
 }
 
-.logo,
+.header,
 .lead,
 .intro,
 .footer {

@@ -1,36 +1,39 @@
 .lead {
-  margin-top: 194px;
+  margin-top: 194px; /* separación desde el bloque header */
   text-align: center;
 }
 
 .lead__title {
+  /* 720×200, Inter Black 96/100 */
   width: 720px;
   height: 200px;
   margin: 0 auto;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1.0416667;
+  line-height: 1.0416667; /* 100/96 */
   letter-spacing: 0;
   color: var(--text);
 }
 
 .lead__subtitle {
+  /* 720×72; 30/36 */
   width: 720px;
   height: 72px;
   margin: 24px auto 0;
   font-weight: 400;
   font-size: 30px;
-  line-height: 1.2;
+  line-height: 1.2; /* 36/30 */
   letter-spacing: 0;
   color: var(--text);
 }
 
 .lead__figure {
+  /* imagen 984×615, centrada */
   width: 984px;
   height: 615px;
   margin: 64px auto 0;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 4px; /* quítalo si Figma no lo usa */
 }
 .lead__image {
   width: 100%;
@@ -38,6 +41,8 @@
   object-fit: cover;
   object-position: center;
 }
+
+/* Breakpoints */
 @media (max-width: 1024px) {
   .lead {
     margin-top: 140px;
@@ -63,6 +68,7 @@
     margin-top: 44px;
   }
 }
+
 @media (max-width: 544px) {
   .lead {
     margin-top: 64px;
