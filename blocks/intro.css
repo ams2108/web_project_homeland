@@ -48,6 +48,10 @@
   text-align: left;
 }
 
+.intro__line {
+  display: block;
+}
+
 @media (max-width: 1024px) {
   .intro {
     margin-top: 72px;
