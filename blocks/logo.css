@@ -1,0 +1,53 @@
+.logo {
+  padding-top: 34px;
+}
+
+.logo__wrap {
+  display: grid;
+  justify-items: center;
+}
+
+.logo__icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 54px;
+}
+
+.logo__tag {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    padding-top: 28px;
+  }
+  .logo__icon {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 40px;
+  }
+  .logo__tag {
+    font-size: 11px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 544px) {
+  .logo {
+    padding-top: 22px;
+  }
+  .logo__icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 28px;
+  }
+  .logo__tag {
+    font-size: 11px;
+    line-height: 1.2;
+  }
+}
