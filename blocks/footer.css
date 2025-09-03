@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 60px;
+  padding: 20px 0 40px;
+  text-align: center;
+}
+.footer__copy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.142857;
+  color: var(--text);
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    margin-top: 48px;
+  }
+}
+@media (max-width: 544px) {
+  .footer {
+    margin-top: 36px;
+    padding: 16px 0 28px;
+  }
+}

@@ -1,0 +1,6 @@
+NOMBRE DEL PROYECTO: HOMELAND
+....
+DESCRIPCIÓN DEL PROYECTO, FUNCIONALIDAD, TÉCNICAS Y TÉCNOLOGÍAS USADAS: esta página sencilla, funciona para desarrollar el uso de FIGMA como brief, y el lanzamiento de la página a ser publica con github. También refuerza buenas prácticas que hemos desarrollado en sprints anteriores (como el uso de BEM y la organización de carpetas)
+....
+Link de github:
+https://ams2108.github.io/web_project_homeland/

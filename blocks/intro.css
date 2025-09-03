@@ -1,0 +1,119 @@
+.intro {
+  margin-top: 90px;
+}
+
+.intro__title {
+  width: 830px;
+  height: 174px;
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.074074;
+  letter-spacing: 0;
+  color: var(--text);
+  text-align: left;
+}
+
+.intro__quote {
+  width: 738px;
+  height: 136px;
+  margin: 24px auto 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4166667;
+  color: var(--text);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.intro__author {
+  width: 732px;
+  height: 34px;
+  margin: 12px auto 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4166667;
+  color: var(--text);
+  text-align: right;
+}
+
+.intro__body {
+  width: 722px;
+  height: 182px;
+  margin: 24px auto 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--text);
+  text-align: left;
+}
+
+.intro__line {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    margin-top: 72px;
+  }
+  .intro__title {
+    width: 88vw;
+    max-width: 830px;
+    height: auto;
+    font-size: 40px;
+    line-height: 1.12;
+  }
+  .intro__quote {
+    width: 86vw;
+    max-width: 738px;
+    height: auto;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+  .intro__author {
+    width: 86vw;
+    max-width: 732px;
+    height: auto;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+  .intro__body {
+    width: 86vw;
+    max-width: 722px;
+    height: auto;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+}
+@media (max-width: 544px) {
+  .intro {
+    margin-top: 40px;
+    padding-inline: 20px;
+  }
+  .intro__title {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .intro__quote {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .intro__author {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: right;
+  }
+  .intro__body {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
